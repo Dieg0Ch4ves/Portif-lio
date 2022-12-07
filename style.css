@@ -1,0 +1,552 @@
+body  {
+    margin: 0px;
+    background: white ;
+    font-family: Arial;
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    background: #fff;
+    gap: 1rem;
+    margin: 1rem 1rem;
+}
+
+.incial {
+    margin:2rem;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.primeirasessao {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.divprimeira {
+    display: grid;
+    border-left: 7px solid greenyellow;
+    margin-left: 3rem;
+    padding-left: 2rem;
+    border-radius: 4px;
+}
+
+.certificado {
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+}
+
+.titulo {
+    font-size: 5rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.titulo::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 350px;
+    width: 6px;
+    background: rgb(95, 144, 22);
+    border-radius: 4px;
+    left: -30px;
+    top: -67px;
+}
+
+.titulo::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 330px;
+    width: 6px;
+    background: rgb(64, 97, 15);
+    border-radius: 4px;
+    left: -21px;
+    top: -67px;
+}
+
+.descricao {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.segundasessao {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    margin-right: 1.5rem;
+    align-items: start;
+}
+
+.experiencia {
+    font-size: 7rem;
+    word-wrap: break-word;
+    color: #c6c6c6;
+    text-align: left;
+    margin: 0px;
+}
+
+.subdescricao {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0rem 10rem 3rem 10rem;
+}
+
+.listadeprojetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #e8e8e8;
+    margin-left: 10rem;
+    margin-top:1.25rem;
+    margin-bottom: 3rem;
+    padding: 1.25rem;
+    border-radius: 4px;
+    gap: 1rem;
+}
+
+.titulolista {
+    margin: 0px;
+    font-size: 20px;
+    position: relative;
+}
+
+.titulolista::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    background: greenyellow;
+    width: 4px;
+    height: 20px;
+    left: -24px;
+}
+
+.titulolista::after {
+    display: inline-block;
+    content: "2022";
+    position: absolute;
+    left: -75px;
+    top: 2px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.classlista {
+    grid-column: 2;
+    grid-row: 1 / 2;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.descrilista {
+    grid-column: 1;
+    margin: 0px;
+    color: #505050;
+}
+
+.subdiv {
+    grid-column: 2;
+    display: flex;
+    gap: 2rem;
+} 
+
+h2 {
+    background: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 100;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.terceirasessao {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: start;
+    margin:0px;
+    padding-top: 6rem;
+    background: rgb(26, 26, 26);
+}
+
+.formacao {
+    font-size: 6rem;
+    word-wrap: break-word;
+    color: #000;
+    text-align: left;
+    margin: 0px;
+    margin-left: 3rem;
+}
+
+.subdescricao2 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0rem 10rem 3rem 10rem;
+    color: white;
+}
+
+.cursos {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 7rem;
+    gap: 1.5rem;
+    padding-right: 1rem;
+}
+
+.curso1 {
+    background: #000;
+    display: grid;
+    border-radius: 4px;
+    padding-right: 1rem;
+}
+
+.classcurso {
+    color: #c6c6c6;
+    margin: 0px;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 0.9rem;
+}
+
+.descricurso {
+    color: white;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    position: relative;
+}
+
+.descricurso::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    background: #9acd32;
+    width: 4px;
+    height: 20px;
+    left: -5px;
+}
+
+.local {
+    color: #c6c6c6;
+    margin:0px;
+    padding: 1rem;
+}
+
+.academia {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+    gap: 20px;
+}
+
+.descricurso1 {
+    color: white;
+    font-weight: 700;
+    grid-column: 2;
+    margin: 0px;
+}
+
+.detalhe {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0px;
+}
+
+.acatitulo {
+    grid-column: 2;
+    color: #c6c6c6;
+    margin: 0px;
+}
+
+.processo1 {
+    grid-column: 3;
+    grid-row: 2 / 3;
+    color: #c6c6c6;
+    margin: 0px;
+}
+
+.processo2 {
+    grid-column: 3;
+    grid-row: 3 / 4;
+    color: #c6c6c6;
+    margin: 0px;
+}
+
+.rodape {
+    grid-template-columns: 1fr 1fr;
+    background: #000;
+    margin: 0px;
+    padding: 100px 60px 20px 30px;
+    display: grid;
+    position: relative;
+}
+
+.rodape::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("/imgs/telefone.svg");
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    top: -50px;
+    left: 50px;
+}
+.mensagem {
+    color: #c6c6c6;
+    margin-left: 30px;
+    font-size: 1.35rem;
+    place-self: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    position: relative;
+}
+
+
+.links {
+    display: grid;
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+    list-style: none;
+    padding: 40px 40px 20px 40px;
+    font-size: 2rem;
+    gap: 20px;
+    grid-column: 2;
+}
+
+.direito {
+    color: #c8c8c8;
+    text-align: bottom;
+    margin: 150px 0px 30px 30px;
+    grid-column: 1 / 2;
+    grid-row: 3/4 ;
+}
+
+.insta {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    grid-column: 2;
+    margin: 0px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1500px ) {
+    .telefone {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 50px;
+    }
+    
+    .descricao {
+        font-size: 30px;
+    }
+    
+    .rodape {
+        grid-template-columns: 1fr;
+    }
+    
+    .links {
+        grid-row: 2 / 3;
+        grid-column: 1;
+    }
+    
+    .insta {
+        grid-column: 1;
+        grid-row: 3 / 4;
+    }
+    
+    .subdescricao2 {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .segundasessao {
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+    }
+
+    .terceirasessao {
+        grid-template-columns: 1fr;
+    }
+    
+    .formacao {
+        justify-self: center;
+        margin-bottom: 40px;
+        font-size: 5rem;
+        word-wrap: break-word;
+    }
+
+    .experiencia {
+        justify-self: center;
+        margin-bottom: 40px;
+        font-size: 5rem;
+        word-wrap: break-word;
+    }
+
+    .primeirasessao{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .certificado {
+        width: 0px;
+        height: 0px;
+    }
+
+    .cursos {
+        justify-items: center;
+        margin: 0px;
+    }
+
+    .listadeprojetos {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+}
+@media (max-width: 650px) {
+    .experiencia {
+        font-size: 3.5rem;
+    }
+    .formacao {
+        font-size: 3.5rem;
+    }
+
+    .primeirasessao {
+        margin: 0px;
+    }
+
+    .subdescricao {
+        margin: 0px;
+    }
+
+    .listadeprojetos {
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background: #e8e8e8;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 10px;
+    }
+
+    .titulolista {
+        font-size: 1rem;
+        grid-column: 1;
+    }
+
+    .descrilista {
+        word-wrap: normal;
+        grid-row: 2 / 3;
+    }
+
+    .classlista {
+        font-size: 1rem;
+        grid-column: 1;
+        grid-row: 3 / 4;
+    }
+
+    .subdiv {
+        font-size: 1rem;
+        grid-column: 1;
+    }
+
+    .rodape {
+        font-size: 1rem;
+    }
+
+    .mensagem {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .links {
+        font-size: 1.5rem;
+    }
+
+    .cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .subdescricao2 {
+        margin: 20px;
+    }
+
+    .menu {
+        margin: 20px 0px 80px 0px;
+    }
+
+    a {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .mensagem {
+        font-size: 1rem;
+    }
+
+    .links {
+        font-size: 1rem;
+    }
+
+    .titulo {
+        font-size: 1.7rem;
+    }
+
+    .descricao {
+        font-size: 1.7rem;
+    }
+
+    .listadeprojetos {
+        margin-right: 0px;
+    }
+
+    .div-listadeprojetos {
+        padding: 10px;
+    }
+
+    .experiencia {
+        font-size: 3rem;
+    }
+
+    .formacao {
+        font-size: 3rem;
+    }
+}
